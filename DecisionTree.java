@@ -5,12 +5,6 @@
  */
 package decisiontree;
 
-/**
- *
- * @author Liz
- */
-public class DecisionTree {
-
     /**
      * @param args the command line arguments
      */
@@ -27,12 +21,23 @@ public class DecisionTree {
     }
     class DT
     {
+        //root of decision tree
         Node root; 
         
-    }
-    public static void main(String[] args) {
-        // TODO code application logic here
+        //constructor
+        DT(int key)
+        {
+            root = new Node(key);
+        }
+        DT()
+        {
+            root = null;
+        }
+    
+    public static void main(String[] args) 
+    {
+        
     }
     
     
-}
+   }
