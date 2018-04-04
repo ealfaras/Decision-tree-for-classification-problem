@@ -14,8 +14,25 @@ public class DecisionTree {
     /**
      * @param args the command line arguments
      */
+    class Node
+    {
+        int key;
+        Node left, middle, right;
+    
+        public Node (int item)
+        {
+            key = item;
+            left = middle = right = null;
+        } 
+    }
+    class DT
+    {
+        Node root; 
+        
+    }
     public static void main(String[] args) {
         // TODO code application logic here
     }
+    
     
 }
